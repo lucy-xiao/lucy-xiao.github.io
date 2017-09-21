@@ -89,6 +89,9 @@ $("#skills-nav-item").click( function() {
 $("#reddit-nav-item").click( function() {
   $('body').scrollTo('#reddit-section');
 });
+$("#youtube-nav-item").click( function() {
+  $('body').scrollTo('#youtube-section');
+});
 $("#plugd-nav-item").click( function() {
   $('body').scrollTo('#plugd-section');
 });
