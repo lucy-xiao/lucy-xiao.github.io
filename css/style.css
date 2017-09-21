@@ -105,7 +105,7 @@ footer.page-footer {
 .section {
   /*margin-top: 60px;*/
 }
-.card.horizontal a {
+.card.horizontal a , .section a{
   font-size: 1.7em;
   line-height: 3em;
   color: #00A0B0;
@@ -131,12 +131,12 @@ footer.page-footer {
     transform: scale(1.012);
 }
 
-.reddit-img{
+.screen-img{
     border-radius: 5px;
     width: 90%;
 }
 
-.reddit-img:hover{
+.screen-img:hover{
     -ms-transform: scale(1.012); /* IE 9 */
     -webkit-transform: scale(1.012); /* Chrome, Safari, Opera */
     transform: scale(1.012);
