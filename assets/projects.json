@@ -1,0 +1,52 @@
+/*
+{
+    "projectTitle": "Title of project",
+    "projectDescription": "Description of project",
+    "url": "URL to interact with project",
+    "coverImage": "Image displayed for project",
+    "category": "Category of project - code, design"
+}
+*/
+
+[   
+    {
+        "projectTitle": "YouTube Clone",
+        "projectDescription": "I made a copy of YouTube's homepage from scratch using HTML+CSS. You can interact with the mock at: ",
+        "url": "lucy-xiao.github.io/youtube",
+        "coverImage": "assets/img/youtube-screen.png",
+        "category": "code",
+        "id": "youtube"
+    },
+    {
+        "projectTitle": "Mouse Re-design",
+        "projectDescription": "I researched different mice and created an infographic about a possible re-design",
+        "url": "",
+        "coverImage": "",
+        "category": "design",
+        "id": "mouse"
+    },
+    {
+        "projectTitle": "Headphone Research",
+        "projectDescription": "I researched different headphones and created an infographic about it",
+        "url": "",
+        "coverImage": "",
+        "category": "design",
+        "id": "headphone"
+    },
+    {
+        "projectTitle": "Bucket",
+        "projectDescription": "I made a satirical graphic about 'kicking the bucket'",
+        "url": "",
+        "coverImage": "Bucket.png",
+        "category": "design",
+        "id": "bucket"
+    },
+    {
+        "projectTitle": "Web Infographic",
+        "projectDescription": "I made an infographic to help non-coders understand HTML/CSS/JS",
+        "url": "",
+        "coverImage": "Website-Infographic@1x.png",
+        "category": "design", 
+        "id": "web-info"
+    }
+]
