@@ -1,20 +1,12 @@
 //For projects.html
 let projects = [   
     {
-        "projectTitle": "YouTube Clone",
-        "projectDescription": "I made a copy of YouTube\'s homepage from scratch using HTML+CSS.",
-        "url": "lucy-xiao.github.io/youtube",
-        "coverImage": "assets/img/youtube.png",
-        "category": "code",
-        "id": "youtube"
-    },
-    {
-        "projectTitle": "Mouse Re-design",
-        "projectDescription": "I researched different mice and created an infographic about a possible re-design",
-        "url": "",
-        "coverImage": "assets/img/mouse1.png",
+        "projectTitle": "UAVs @ Berkeley Website",
+        "projectDescription": "I designed and coded an event website for Berkeley's drone club. You can interact with it at: <a class='project-link' href='https://uav.berkeley.edu/western-drone-race/'>https://uav.berkeley.edu/western-drone-race/</a>",
+        "url": "https://uav.berkeley.edu/western-drone-race/",
+        "coverImage": "assets/img/uav.png",
         "category": "design",
-        "id": "mouse"
+        "id": "uav"
     },
     {
         "projectTitle": "Headphone Research",
@@ -39,6 +31,14 @@ let projects = [
         "coverImage": "assets/img/Website-Infographic@1x.png",
         "category": "design", 
         "id": "web-info"
+    },
+    {
+        "projectTitle": "YouTube Clone",
+        "projectDescription": "I made a copy of YouTube\'s homepage from scratch using HTML+CSS.",
+        "url": "lucy-xiao.github.io/youtube",
+        "coverImage": "assets/img/youtube.png",
+        "category": "code",
+        "id": "youtube"
     }
 ];
 

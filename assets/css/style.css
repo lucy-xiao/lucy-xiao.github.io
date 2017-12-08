@@ -163,6 +163,10 @@ a{
     transition: color 0.4s;
 }
 
+a.project-link {
+    color: #eee;
+}
+
 .project-page-header{
     position: relative;
     background-color: #333;
