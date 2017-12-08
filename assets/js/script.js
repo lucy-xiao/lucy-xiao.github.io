@@ -34,7 +34,7 @@ let projects = [
     },
     {
         "projectTitle": "YouTube Clone",
-        "projectDescription": "I made a copy of YouTube\'s homepage from scratch using HTML+CSS.",
+        "projectDescription": "I made a copy of YouTube\'s homepage from scratch using HTML+CSS. You can interact with it at: <a class='project-link' href='https://lucy-xiao.github.io/youtube/'>https://lucy-xiao.github.io/youtube/</a>",
         "url": "lucy-xiao.github.io/youtube",
         "coverImage": "assets/img/youtube.png",
         "category": "code",
