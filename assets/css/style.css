@@ -17,6 +17,59 @@ body {
     padding-top:100px;
 }
 
+.about-me-section{
+    flex-direction: column;
+}
+
+.about-me-description{
+    position: relative;
+    width: 50%;
+    text-align: justify;
+    margin-top:40px;
+    font-size: 1.3em;
+    align-items: center;
+    justify-content: center;
+    left: 10%;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 0;
+    left: 38%;
+    cursor: pointer;
+}
+
+.landing-description {
+    position: relative;
+    right:0;
+    background-color: white;
+    font-size: 1.4em;
+    padding: 10px;
+    text-align: right;
+}
+.landing-left-side {
+    flex:2;
+    overflow: hidden;
+}
+
+.landing-right-side{
+    flex: 3;
+    /*flex-direction: column;*/
+    background-color: #F2C94C;
+    /*display: flex;*/
+}
+
+.landing-section {
+    flex-direction: row;
+}
+
+.landing-title {
+    font-size: 9em;
+    text-align: right;
+    margin-right: 10%;
+    padding: 10px;
+}
+
 .line {
     height: .25rem;
     width: 25%;
@@ -46,6 +99,7 @@ body {
     display: flex;
     align-items: center;
     padding: 10px 20px;
+    z-index: 3;
 }
 
 .nav-item {
@@ -88,4 +142,94 @@ body {
     flex:1;
     justify-content: center;
     align-self: flex-end;
+}
+@media screen and (max-width: 850px) {
+    .profile-pic {
+        position: absolute;
+        border-radius: 50%;
+        height: 40vh;
+        width: 40vh;
+        top: 50%;
+        left: 50%;
+        margin: -20vh 0px 0px -20vh;
+        }
+    .profile-pic-border{
+        border-radius: 50%;
+        border: 1px solid #333;
+        height: 43vh;
+        width: 43vh;
+        position: relative;
+    }
+    .profile-pic-container {
+        position: absolute;
+        width: 15%;
+        left: 10%;
+        top: 30%;
+    }
+}
+@media screen and (min-width: 850px) {
+    .profile-pic {
+        opacity: 100%;
+        position: absolute;
+        border-radius: 50%;
+        height: 40vh;
+        width: 40vh;
+        top: 50%;
+        left: 50%;
+        margin: -20vh 0px 0px -20vh;
+    }
+    .profile-pic-border{
+        opacity: 100%;
+       border-radius: 50%;
+       border: 1px solid #333;
+       height: 43vh;
+       width: 43vh;
+       position: relative;
+    }
+    .profile-pic-container {
+        opacity: 100%;
+        position: absolute;
+        width: 15%;
+        left: 30%;
+        top: 30%;
+        /*transform: translate(5% 5%);*/
+    }
+}
+.section {
+    min-height: 80%;
+    max-height: 100%;
+    display: flex;
+}
+
+.section-title{
+    position: relative;
+    background-color: #F2C94C;
+    font-size: 1.9em;
+    width: 200px;
+    height: 1.9em;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.stripes {
+    width: 100%;
+    transform: rotate(30deg) translate(-50%, -10%);
+}
+
+/*Keyframes*/
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+    transform:translateY(0);
+  }
+    40% {
+    transform:translateY(-20px);
+  }
+    60% {
+    transform:translateY(-15px);
+  }
+}
+
+.bounce {
+  animation: ease-in-out bounce 2s infinite;
 }
