@@ -12,6 +12,10 @@ html, body {
     color: #333;
     min-height: 100%;
 }
+a {
+    text-decoration: none;
+    color: #eee;
+}
 
 body {
     padding-top:100px;
@@ -111,7 +115,7 @@ body {
     cursor: pointer;
 }
 
-.nav-item:hover{
+.nav-item:hover, .navbar a:hover{
     color: #F2C94C;
 }
 
