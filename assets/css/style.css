@@ -216,7 +216,10 @@ body {
 
 /*Phone screens*/
 @media only screen and (max-width: 400px){
-    .landing-description{
+    .landing-background-top {
+        justify-content: center;
+    }
+    .landing-description {
         text-align: center;
         width: 100%;
         padding: 10px 20px;
