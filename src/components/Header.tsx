@@ -7,10 +7,10 @@ import {
 } from "react-router-dom";
 
 const linkConfig = [
-  {
-    pathname: '/',
-    title: 'Project'
-  },
+  // {
+  //   pathname: '/',
+  //   title: 'Project'
+  // },
   // {
   //   pathname: '/about',
   //   title: 'About'

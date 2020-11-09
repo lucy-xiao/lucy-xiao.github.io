@@ -4,10 +4,14 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Projects from './pages/Projects';
 import About from './pages/About';
+// import {
+//   Switch,
+//   Route
+// } from "react-router-dom";
 import {
   Switch,
   Route
-} from "react-router-dom";
+} from "react-router";
 
 class Layout extends Component {
 
@@ -21,11 +25,11 @@ class Layout extends Component {
       </Grid>
       <Grid container className="body" direction="row" justify="center">
         <Grid item container xs={9}>
-            <Switch>
-              <Route exact path="/" component={Projects} />
+            {/* <Switch> */}
+              {/* <Route exact path="/" component={Projects} /> */}
               {/* <Route path="/about" component={About} /> */}
-            </Switch>
-          
+            {/* </Switch> */}
+            <Projects />
         </Grid>
         <Grid container className="footer" direction="row" justify="center" alignItems="flex-end">
           <Grid item container xs={9} >
