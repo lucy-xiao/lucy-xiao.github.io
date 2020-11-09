@@ -1,4 +1,5 @@
 # My Personal Portfolio Website
+[lucygx.com](lucygx.com)
 
 ## Goal
 * To learn the ins and outs of web development
