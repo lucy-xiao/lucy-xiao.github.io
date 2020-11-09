@@ -17,7 +17,7 @@ const Footer = (props: any) => {
             <a href="mailto:lucy77xiao@gmail.com" target="__blank">Email</a>
           </Grid>
           <Grid item className="header-item">
-            <a href="http://docs.google.com/gview?url=https://github.com/lucy-xiao/lucy-xiao.github.io/tree/v2-refresh/src/resources/Resume2020.pdf&embedded=true" target="__blank">Resume</a>
+            <a href="https://drive.google.com/file/d/1vwz_8pJcedqN1gmEbfXKv2FOkoWiVenw/preview" target="__blank">Resume</a>
           </Grid>
         </Grid>
       </Grid>
