@@ -1,5 +1,5 @@
 # My Personal Portfolio Website
-[lucygx.com](lucygx.com)
+[https://lucygx.com/](https://lucygx.com)
 
 ## Goal
 * To learn the ins and outs of web development
