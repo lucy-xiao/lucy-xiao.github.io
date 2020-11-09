@@ -1,0 +1,66 @@
+$body-color: blue;
+
+$light-white: #F5F5F5;
+$light-gray: #CCCCCC;
+$mid-gray: #7D7C7E;
+$dark-gray: #2E2C2F;
+$dark-black: #151415;
+$orange: #FC7753;
+$green: #729B79;
+$blue: #44A0D3;
+$red: #A71D31;
+
+* {
+  font-family: 'Jost', sans-serif;
+}
+
+body {
+  background-color: $light-white;
+  margin: 0;
+
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.header, .footer {
+  background-color: $dark-gray;
+  color: $light-white;
+  padding: 10px;
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: $light-white;
+  }
+}
+
+.body-description {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  text-align: justify;
+}
+
+.resume {
+  width:600px; 
+  height:500px
+}
+
+.section {
+  // margin: 'auto';
+  padding: 2rem;
+  // width: 33%;
+  margin-bottom: 20px;
+  .section-left {
+    padding: 2rem;
+  }
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .section-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
