@@ -15,8 +15,17 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.11.0",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/lodash": "^4.14.158",
+    "@types/material-ui": "^0.21.7",
+    "@types/react": "^16.9.44",
+    "@types/react-dom": "^16.9.8",
     "babel-loader": "^8.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^4.1.1",
     "cssnano": "^4.1.10",
@@ -30,14 +39,27 @@
     "postcss-preset-env": "^6.7.0",
     "sass": "^1.26.10",
     "sass-loader": "^9.0.2",
+    "source-map-loader": "^1.0.1",
     "style-loader": "^1.2.1",
     "sugarss": "^2.0.0",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
-    "lodash": "^4.17.19"
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.6",
+    "lodash": "^4.17.19",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-masonry-css": "^1.0.14",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5"
   }
 }
